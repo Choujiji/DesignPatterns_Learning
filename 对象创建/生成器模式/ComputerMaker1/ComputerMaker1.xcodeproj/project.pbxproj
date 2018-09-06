@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EFB0962140C5120074AF1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB0952140C5120074AF1A /* main.m */; };
+		04EFB09E2140C54C0074AF1A /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB09D2140C54C0074AF1A /* Computer.m */; };
+		04EFB0A42140C64D0074AF1A /* ComputerMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB0A32140C64D0074AF1A /* ComputerMaker.m */; };
+		04EFB0A72140C96E0074AF1A /* AppleComputerMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB0A62140C96E0074AF1A /* AppleComputerMaker.m */; };
+		04EFB0AA2140C97D0074AF1A /* LenovoComputerMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB0A92140C97D0074AF1A /* LenovoComputerMaker.m */; };
+		04EFB0AD2140CA2B0074AF1A /* ComputerSeller.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB0AC2140CA2B0074AF1A /* ComputerSeller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04EFB0902140C5120074AF1A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04EFB0922140C5120074AF1A /* ComputerMaker1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComputerMaker1; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EFB0952140C5120074AF1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EFB09C2140C54C0074AF1A /* Computer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		04EFB09D2140C54C0074AF1A /* Computer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		04EFB0A22140C64D0074AF1A /* ComputerMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerMaker.h; sourceTree = "<group>"; };
+		04EFB0A32140C64D0074AF1A /* ComputerMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerMaker.m; sourceTree = "<group>"; };
+		04EFB0A52140C96E0074AF1A /* AppleComputerMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleComputerMaker.h; sourceTree = "<group>"; };
+		04EFB0A62140C96E0074AF1A /* AppleComputerMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleComputerMaker.m; sourceTree = "<group>"; };
+		04EFB0A82140C97D0074AF1A /* LenovoComputerMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LenovoComputerMaker.h; sourceTree = "<group>"; };
+		04EFB0A92140C97D0074AF1A /* LenovoComputerMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LenovoComputerMaker.m; sourceTree = "<group>"; };
+		04EFB0AB2140CA2B0074AF1A /* ComputerSeller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerSeller.h; sourceTree = "<group>"; };
+		04EFB0AC2140CA2B0074AF1A /* ComputerSeller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerSeller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EFB08F2140C5120074AF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EFB0892140C5120074AF1A = {
+			isa = PBXGroup;
+			children = (
+				04EFB0942140C5120074AF1A /* ComputerMaker1 */,
+				04EFB0932140C5120074AF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EFB0932140C5120074AF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB0922140C5120074AF1A /* ComputerMaker1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EFB0942140C5120074AF1A /* ComputerMaker1 */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB0A12140C6240074AF1A /* Builder */,
+				04EFB0A02140C61C0074AF1A /* Director */,
+				04EFB09F2140C5FE0074AF1A /* Model */,
+				04EFB0952140C5120074AF1A /* main.m */,
+			);
+			path = ComputerMaker1;
+			sourceTree = "<group>";
+		};
+		04EFB09F2140C5FE0074AF1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB09C2140C54C0074AF1A /* Computer.h */,
+				04EFB09D2140C54C0074AF1A /* Computer.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04EFB0A02140C61C0074AF1A /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB0AB2140CA2B0074AF1A /* ComputerSeller.h */,
+				04EFB0AC2140CA2B0074AF1A /* ComputerSeller.m */,
+			);
+			path = Director;
+			sourceTree = "<group>";
+		};
+		04EFB0A12140C6240074AF1A /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				04EFB0A22140C64D0074AF1A /* ComputerMaker.h */,
+				04EFB0A32140C64D0074AF1A /* ComputerMaker.m */,
+				04EFB0A52140C96E0074AF1A /* AppleComputerMaker.h */,
+				04EFB0A62140C96E0074AF1A /* AppleComputerMaker.m */,
+				04EFB0A82140C97D0074AF1A /* LenovoComputerMaker.h */,
+				04EFB0A92140C97D0074AF1A /* LenovoComputerMaker.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EFB0912140C5120074AF1A /* ComputerMaker1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EFB0992140C5120074AF1A /* Build configuration list for PBXNativeTarget "ComputerMaker1" */;
+			buildPhases = (
+				04EFB08E2140C5120074AF1A /* Sources */,
+				04EFB08F2140C5120074AF1A /* Frameworks */,
+				04EFB0902140C5120074AF1A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComputerMaker1;
+			productName = ComputerMaker1;
+			productReference = 04EFB0922140C5120074AF1A /* ComputerMaker1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EFB08A2140C5120074AF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jiji;
+				TargetAttributes = {
+					04EFB0912140C5120074AF1A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 04EFB08D2140C5120074AF1A /* Build configuration list for PBXProject "ComputerMaker1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04EFB0892140C5120074AF1A;
+			productRefGroup = 04EFB0932140C5120074AF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EFB0912140C5120074AF1A /* ComputerMaker1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EFB08E2140C5120074AF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EFB0A72140C96E0074AF1A /* AppleComputerMaker.m in Sources */,
+				04EFB09E2140C54C0074AF1A /* Computer.m in Sources */,
+				04EFB0AA2140C97D0074AF1A /* LenovoComputerMaker.m in Sources */,
+				04EFB0AD2140CA2B0074AF1A /* ComputerSeller.m in Sources */,
+				04EFB0962140C5120074AF1A /* main.m in Sources */,
+				04EFB0A42140C64D0074AF1A /* ComputerMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04EFB0972140C5120074AF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04EFB0982140C5120074AF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04EFB09A2140C5120074AF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NH253YJV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04EFB09B2140C5120074AF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NH253YJV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EFB08D2140C5120074AF1A /* Build configuration list for PBXProject "ComputerMaker1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EFB0972140C5120074AF1A /* Debug */,
+				04EFB0982140C5120074AF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EFB0992140C5120074AF1A /* Build configuration list for PBXNativeTarget "ComputerMaker1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EFB09A2140C5120074AF1A /* Debug */,
+				04EFB09B2140C5120074AF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EFB08A2140C5120074AF1A /* Project object */;
+}
