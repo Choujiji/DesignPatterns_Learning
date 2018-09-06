@@ -23,7 +23,7 @@
 }
 
 - (NSString *)getMotherboard {
-    // 这里只是示例
+    // 这里只是示例，实际项目中可以返回自定义类的对象，对外则隐藏了类名
     return _computer.motherboard;
 }
 

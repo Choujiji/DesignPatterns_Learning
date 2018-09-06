@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // 获取产品工厂
         ComputerFactory *factory = [ComputerFactory factoryWithBrand:ComputerBrandApple];
-        // 获取产品
+        // 获取产品（实际项目中，每个产品可能都是自己的类对象，Client端在外部则无需引入，达到了解耦的目的）
         NSString *motherboard = [factory getMotherboard];
         NSString *screen = [factory getScreen];
         NSString *keyboard = [factory getKeyboard];
