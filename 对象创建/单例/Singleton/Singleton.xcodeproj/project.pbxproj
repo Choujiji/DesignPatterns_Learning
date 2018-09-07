@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		043D43FD2142285B006B7249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D43FC2142285B006B7249 /* main.m */; };
 		043D440521422887006B7249 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D440421422887006B7249 /* Singleton.m */; };
+		043D440821425666006B7249 /* ChildSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D440721425666006B7249 /* ChildSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		043D43FC2142285B006B7249 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		043D440321422887006B7249 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		043D440421422887006B7249 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		043D440621425666006B7249 /* ChildSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildSingleton.h; sourceTree = "<group>"; };
+		043D440721425666006B7249 /* ChildSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				043D440321422887006B7249 /* Singleton.h */,
 				043D440421422887006B7249 /* Singleton.m */,
+				043D440621425666006B7249 /* ChildSingleton.h */,
+				043D440721425666006B7249 /* ChildSingleton.m */,
 				043D43FC2142285B006B7249 /* main.m */,
 			);
 			path = Singleton;
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043D43FD2142285B006B7249 /* main.m in Sources */,
+				043D440821425666006B7249 /* ChildSingleton.m in Sources */,
 				043D440521422887006B7249 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

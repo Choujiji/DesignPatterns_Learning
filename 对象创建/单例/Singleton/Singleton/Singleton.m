@@ -31,18 +31,20 @@ static Singleton *instance = nil;
 }
 
 + (instancetype)allocWithZone:(struct _NSZone *)zone {
-    // 由于alloc方法会调用allocWithZone，防止外部直接调用此方法开辟新的内存空间，覆盖此方法
+    // 由于alloc方法会调用allocWithZone，防止外部直接调用此方法或者alloc开辟新的内存空间，覆盖此方法
     return [self getInstance];
 }
 
 - (instancetype)copy {
     // 默认copy方法会调用copyWithZone进行新的实例创建，覆盖
-    return [[self class] getInstance];
+//    return [[self class] getInstance];
+    return instance; // 这样就可以了，实例方法嘛~
 }
 
 - (instancetype)mutableCopy {
     // 默认copy方法会调用mutableCopyWithZone进行新的实例创建，覆盖
-    return [[self class] getInstance];
+//    return [[self class] getInstance];
+    return instance;
 }
 
 
