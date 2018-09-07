@@ -18,9 +18,11 @@ int main(int argc, const char * argv[]) {
         Singleton *instance3 = [[Singleton alloc] init];
         
         Singleton *instance4 = [[Singleton allocWithZone:NULL] init];
+        
+        Singleton *instance5 = [instance copy];
 
         
-        NSLog(@"%@\n%@\n%@\n%@", instance, instance2, instance3, instance4);
+        NSLog(@"%@\n%@\n%@\n%@\n%@", instance, instance2, instance3, instance4, instance5);
     }
     return 0;
 }
