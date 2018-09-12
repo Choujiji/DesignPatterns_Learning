@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0419EE5C2148BFE70041B071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419EE5B2148BFE70041B071 /* main.m */; };
+		0419EE662148C05E0041B071 /* Cellphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419EE652148C05E0041B071 /* Cellphone.m */; };
+		0419EE6A2148C3400041B071 /* CellphoneFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419EE692148C3400041B071 /* CellphoneFunction.m */; };
+		0419EE6D2148C6CA0041B071 /* iPhoneFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419EE6C2148C6CA0041B071 /* iPhoneFunction.m */; };
+		0419EE702148C6DC0041B071 /* XiaoMiFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419EE6F2148C6DC0041B071 /* XiaoMiFunction.m */; };
+		0419EE732148C8530041B071 /* iPhoneX.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419EE722148C8530041B071 /* iPhoneX.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0419EE562148BFE70041B071 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0419EE582148BFE70041B071 /* CellphoneBridge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CellphoneBridge; sourceTree = BUILT_PRODUCTS_DIR; };
+		0419EE5B2148BFE70041B071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0419EE642148C05E0041B071 /* Cellphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cellphone.h; sourceTree = "<group>"; };
+		0419EE652148C05E0041B071 /* Cellphone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cellphone.m; sourceTree = "<group>"; };
+		0419EE672148C0CC0041B071 /* CellphoneFunctionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellphoneFunctionProtocol.h; sourceTree = "<group>"; };
+		0419EE682148C3400041B071 /* CellphoneFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellphoneFunction.h; sourceTree = "<group>"; };
+		0419EE692148C3400041B071 /* CellphoneFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellphoneFunction.m; sourceTree = "<group>"; };
+		0419EE6B2148C6CA0041B071 /* iPhoneFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneFunction.h; sourceTree = "<group>"; };
+		0419EE6C2148C6CA0041B071 /* iPhoneFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneFunction.m; sourceTree = "<group>"; };
+		0419EE6E2148C6DC0041B071 /* XiaoMiFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoMiFunction.h; sourceTree = "<group>"; };
+		0419EE6F2148C6DC0041B071 /* XiaoMiFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMiFunction.m; sourceTree = "<group>"; };
+		0419EE712148C8520041B071 /* iPhoneX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneX.h; sourceTree = "<group>"; };
+		0419EE722148C8530041B071 /* iPhoneX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneX.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0419EE552148BFE70041B071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0419EE4F2148BFE70041B071 = {
+			isa = PBXGroup;
+			children = (
+				0419EE5A2148BFE70041B071 /* CellphoneBridge */,
+				0419EE592148BFE70041B071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0419EE592148BFE70041B071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0419EE582148BFE70041B071 /* CellphoneBridge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0419EE5A2148BFE70041B071 /* CellphoneBridge */ = {
+			isa = PBXGroup;
+			children = (
+				0419EE632148C0250041B071 /* Implementor */,
+				0419EE622148C00A0041B071 /* Abstraction */,
+				0419EE5B2148BFE70041B071 /* main.m */,
+			);
+			path = CellphoneBridge;
+			sourceTree = "<group>";
+		};
+		0419EE622148C00A0041B071 /* Abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				0419EE642148C05E0041B071 /* Cellphone.h */,
+				0419EE652148C05E0041B071 /* Cellphone.m */,
+				0419EE712148C8520041B071 /* iPhoneX.h */,
+				0419EE722148C8530041B071 /* iPhoneX.m */,
+			);
+			path = Abstraction;
+			sourceTree = "<group>";
+		};
+		0419EE632148C0250041B071 /* Implementor */ = {
+			isa = PBXGroup;
+			children = (
+				0419EE672148C0CC0041B071 /* CellphoneFunctionProtocol.h */,
+				0419EE682148C3400041B071 /* CellphoneFunction.h */,
+				0419EE692148C3400041B071 /* CellphoneFunction.m */,
+				0419EE6B2148C6CA0041B071 /* iPhoneFunction.h */,
+				0419EE6C2148C6CA0041B071 /* iPhoneFunction.m */,
+				0419EE6E2148C6DC0041B071 /* XiaoMiFunction.h */,
+				0419EE6F2148C6DC0041B071 /* XiaoMiFunction.m */,
+			);
+			path = Implementor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0419EE572148BFE70041B071 /* CellphoneBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419EE5F2148BFE70041B071 /* Build configuration list for PBXNativeTarget "CellphoneBridge" */;
+			buildPhases = (
+				0419EE542148BFE70041B071 /* Sources */,
+				0419EE552148BFE70041B071 /* Frameworks */,
+				0419EE562148BFE70041B071 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellphoneBridge;
+			productName = CellphoneBridge;
+			productReference = 0419EE582148BFE70041B071 /* CellphoneBridge */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0419EE502148BFE70041B071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jiji;
+				TargetAttributes = {
+					0419EE572148BFE70041B071 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0419EE532148BFE70041B071 /* Build configuration list for PBXProject "CellphoneBridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0419EE4F2148BFE70041B071;
+			productRefGroup = 0419EE592148BFE70041B071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0419EE572148BFE70041B071 /* CellphoneBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0419EE542148BFE70041B071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0419EE6D2148C6CA0041B071 /* iPhoneFunction.m in Sources */,
+				0419EE662148C05E0041B071 /* Cellphone.m in Sources */,
+				0419EE6A2148C3400041B071 /* CellphoneFunction.m in Sources */,
+				0419EE732148C8530041B071 /* iPhoneX.m in Sources */,
+				0419EE5C2148BFE70041B071 /* main.m in Sources */,
+				0419EE702148C6DC0041B071 /* XiaoMiFunction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0419EE5D2148BFE70041B071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0419EE5E2148BFE70041B071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0419EE602148BFE70041B071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NH253YJV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0419EE612148BFE70041B071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NH253YJV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0419EE532148BFE70041B071 /* Build configuration list for PBXProject "CellphoneBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419EE5D2148BFE70041B071 /* Debug */,
+				0419EE5E2148BFE70041B071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0419EE5F2148BFE70041B071 /* Build configuration list for PBXNativeTarget "CellphoneBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419EE602148BFE70041B071 /* Debug */,
+				0419EE612148BFE70041B071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0419EE502148BFE70041B071 /* Project object */;
+}
