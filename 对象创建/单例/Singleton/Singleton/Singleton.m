@@ -12,6 +12,10 @@ static Singleton *instance = nil;
 
 @implementation Singleton
 
++ (void)load {
+    NSLog(@"load Singleton...");
+}
+
 //+ (Singleton *)getInstance {
 //    // 此入口可以保证返回同一个对象，但是由于使用其他接口（alloc init或copy multableCopy等，可以创建额外对象）
 //    static dispatch_once_t onceToken;
