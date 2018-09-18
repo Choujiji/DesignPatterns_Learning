@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049A78792150D05F004885FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A78782150D05F004885FE /* main.m */; };
+		049A78852150D284004885FE /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A78842150D284004885FE /* House.m */; };
+		049A78882150D2FB004885FE /* ElectricWire.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A78872150D2FB004885FE /* ElectricWire.m */; };
+		049A788B2150D308004885FE /* Pipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A788A2150D308004885FE /* Pipeline.m */; };
+		049A788E2150D680004885FE /* Electrician.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A788D2150D680004885FE /* Electrician.m */; };
+		049A78912150D68D004885FE /* Plumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A78902150D68D004885FE /* Plumber.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		049A78732150D05F004885FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		049A78752150D05F004885FE /* HouseVisitor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HouseVisitor; sourceTree = BUILT_PRODUCTS_DIR; };
+		049A78782150D05F004885FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049A78812150D088004885FE /* FixableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixableProtocol.h; sourceTree = "<group>"; };
+		049A78822150D0BE004885FE /* ContractorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractorProtocol.h; sourceTree = "<group>"; };
+		049A78832150D284004885FE /* House.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		049A78842150D284004885FE /* House.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		049A78862150D2FB004885FE /* ElectricWire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectricWire.h; sourceTree = "<group>"; };
+		049A78872150D2FB004885FE /* ElectricWire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricWire.m; sourceTree = "<group>"; };
+		049A78892150D308004885FE /* Pipeline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pipeline.h; sourceTree = "<group>"; };
+		049A788A2150D308004885FE /* Pipeline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pipeline.m; sourceTree = "<group>"; };
+		049A788C2150D680004885FE /* Electrician.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Electrician.h; sourceTree = "<group>"; };
+		049A788D2150D680004885FE /* Electrician.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Electrician.m; sourceTree = "<group>"; };
+		049A788F2150D68D004885FE /* Plumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plumber.h; sourceTree = "<group>"; };
+		049A78902150D68D004885FE /* Plumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plumber.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049A78722150D05F004885FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049A786C2150D05F004885FE = {
+			isa = PBXGroup;
+			children = (
+				049A78772150D05F004885FE /* HouseVisitor */,
+				049A78762150D05F004885FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049A78762150D05F004885FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049A78752150D05F004885FE /* HouseVisitor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049A78772150D05F004885FE /* HouseVisitor */ = {
+			isa = PBXGroup;
+			children = (
+				049A78802150D06F004885FE /* Visitor */,
+				049A787F2150D067004885FE /* Client */,
+				049A78782150D05F004885FE /* main.m */,
+			);
+			path = HouseVisitor;
+			sourceTree = "<group>";
+		};
+		049A787F2150D067004885FE /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				049A78812150D088004885FE /* FixableProtocol.h */,
+				049A78832150D284004885FE /* House.h */,
+				049A78842150D284004885FE /* House.m */,
+				049A78862150D2FB004885FE /* ElectricWire.h */,
+				049A78872150D2FB004885FE /* ElectricWire.m */,
+				049A78892150D308004885FE /* Pipeline.h */,
+				049A788A2150D308004885FE /* Pipeline.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		049A78802150D06F004885FE /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				049A78822150D0BE004885FE /* ContractorProtocol.h */,
+				049A788F2150D68D004885FE /* Plumber.h */,
+				049A78902150D68D004885FE /* Plumber.m */,
+				049A788C2150D680004885FE /* Electrician.h */,
+				049A788D2150D680004885FE /* Electrician.m */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049A78742150D05F004885FE /* HouseVisitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A787C2150D05F004885FE /* Build configuration list for PBXNativeTarget "HouseVisitor" */;
+			buildPhases = (
+				049A78712150D05F004885FE /* Sources */,
+				049A78722150D05F004885FE /* Frameworks */,
+				049A78732150D05F004885FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseVisitor;
+			productName = HouseVisitor;
+			productReference = 049A78752150D05F004885FE /* HouseVisitor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049A786D2150D05F004885FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jiji;
+				TargetAttributes = {
+					049A78742150D05F004885FE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 049A78702150D05F004885FE /* Build configuration list for PBXProject "HouseVisitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 049A786C2150D05F004885FE;
+			productRefGroup = 049A78762150D05F004885FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049A78742150D05F004885FE /* HouseVisitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049A78712150D05F004885FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A78852150D284004885FE /* House.m in Sources */,
+				049A78882150D2FB004885FE /* ElectricWire.m in Sources */,
+				049A788E2150D680004885FE /* Electrician.m in Sources */,
+				049A78912150D68D004885FE /* Plumber.m in Sources */,
+				049A78792150D05F004885FE /* main.m in Sources */,
+				049A788B2150D308004885FE /* Pipeline.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		049A787A2150D05F004885FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		049A787B2150D05F004885FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		049A787D2150D05F004885FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NH253YJV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049A787E2150D05F004885FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NH253YJV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049A78702150D05F004885FE /* Build configuration list for PBXProject "HouseVisitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A787A2150D05F004885FE /* Debug */,
+				049A787B2150D05F004885FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049A787C2150D05F004885FE /* Build configuration list for PBXNativeTarget "HouseVisitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A787D2150D05F004885FE /* Debug */,
+				049A787E2150D05F004885FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049A786D2150D05F004885FE /* Project object */;
+}
