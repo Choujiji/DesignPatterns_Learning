@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049359F521533C7F00C69120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049359F421533C7F00C69120 /* main.m */; };
+		049359FE21533E9400C69120 /* ProductionCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 049359FD21533E9400C69120 /* ProductionCar.m */; };
+		04935A0121533F8E00C69120 /* CarWheelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04935A0021533F8E00C69120 /* CarWheelManager.m */; };
+		04935A042153400600C69120 /* CarBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04935A032153400600C69120 /* CarBaseManager.m */; };
+		04935A072153412100C69120 /* CarEngineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04935A062153412100C69120 /* CarEngineManager.m */; };
+		04935A0A2153413000C69120 /* CarGearboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04935A092153413000C69120 /* CarGearboxManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		049359EF21533C7F00C69120 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		049359F121533C7F00C69120 /* CarProduction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarProduction; sourceTree = BUILT_PRODUCTS_DIR; };
+		049359F421533C7F00C69120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049359FB21533E4200C69120 /* CarBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarBase.h; sourceTree = "<group>"; };
+		049359FC21533E9400C69120 /* ProductionCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductionCar.h; sourceTree = "<group>"; };
+		049359FD21533E9400C69120 /* ProductionCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductionCar.m; sourceTree = "<group>"; };
+		049359FF21533F8E00C69120 /* CarWheelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarWheelManager.h; sourceTree = "<group>"; };
+		04935A0021533F8E00C69120 /* CarWheelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarWheelManager.m; sourceTree = "<group>"; };
+		04935A022153400600C69120 /* CarBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarBaseManager.h; sourceTree = "<group>"; };
+		04935A032153400600C69120 /* CarBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarBaseManager.m; sourceTree = "<group>"; };
+		04935A052153412100C69120 /* CarEngineManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarEngineManager.h; sourceTree = "<group>"; };
+		04935A062153412100C69120 /* CarEngineManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarEngineManager.m; sourceTree = "<group>"; };
+		04935A082153413000C69120 /* CarGearboxManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarGearboxManager.h; sourceTree = "<group>"; };
+		04935A092153413000C69120 /* CarGearboxManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarGearboxManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049359EE21533C7F00C69120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049359E821533C7F00C69120 = {
+			isa = PBXGroup;
+			children = (
+				049359F321533C7F00C69120 /* CarProduction */,
+				049359F221533C7F00C69120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049359F221533C7F00C69120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049359F121533C7F00C69120 /* CarProduction */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049359F321533C7F00C69120 /* CarProduction */ = {
+			isa = PBXGroup;
+			children = (
+				04935A0B215341D900C69120 /* RootComponent */,
+				04935A0D2153420500C69120 /* Decorator */,
+				04935A0C215341EF00C69120 /* ConcreteComponent */,
+				049359F421533C7F00C69120 /* main.m */,
+			);
+			path = CarProduction;
+			sourceTree = "<group>";
+		};
+		04935A0B215341D900C69120 /* RootComponent */ = {
+			isa = PBXGroup;
+			children = (
+				049359FB21533E4200C69120 /* CarBase.h */,
+			);
+			path = RootComponent;
+			sourceTree = "<group>";
+		};
+		04935A0C215341EF00C69120 /* ConcreteComponent */ = {
+			isa = PBXGroup;
+			children = (
+				049359FC21533E9400C69120 /* ProductionCar.h */,
+				049359FD21533E9400C69120 /* ProductionCar.m */,
+			);
+			path = ConcreteComponent;
+			sourceTree = "<group>";
+		};
+		04935A0D2153420500C69120 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				04935A022153400600C69120 /* CarBaseManager.h */,
+				04935A032153400600C69120 /* CarBaseManager.m */,
+				049359FF21533F8E00C69120 /* CarWheelManager.h */,
+				04935A0021533F8E00C69120 /* CarWheelManager.m */,
+				04935A052153412100C69120 /* CarEngineManager.h */,
+				04935A062153412100C69120 /* CarEngineManager.m */,
+				04935A082153413000C69120 /* CarGearboxManager.h */,
+				04935A092153413000C69120 /* CarGearboxManager.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049359F021533C7F00C69120 /* CarProduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049359F821533C7F00C69120 /* Build configuration list for PBXNativeTarget "CarProduction" */;
+			buildPhases = (
+				049359ED21533C7F00C69120 /* Sources */,
+				049359EE21533C7F00C69120 /* Frameworks */,
+				049359EF21533C7F00C69120 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarProduction;
+			productName = CarProduction;
+			productReference = 049359F121533C7F00C69120 /* CarProduction */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049359E921533C7F00C69120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jiji;
+				TargetAttributes = {
+					049359F021533C7F00C69120 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 049359EC21533C7F00C69120 /* Build configuration list for PBXProject "CarProduction" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 049359E821533C7F00C69120;
+			productRefGroup = 049359F221533C7F00C69120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049359F021533C7F00C69120 /* CarProduction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049359ED21533C7F00C69120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049359F521533C7F00C69120 /* main.m in Sources */,
+				049359FE21533E9400C69120 /* ProductionCar.m in Sources */,
+				04935A072153412100C69120 /* CarEngineManager.m in Sources */,
+				04935A0A2153413000C69120 /* CarGearboxManager.m in Sources */,
+				04935A0121533F8E00C69120 /* CarWheelManager.m in Sources */,
+				04935A042153400600C69120 /* CarBaseManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		049359F621533C7F00C69120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		049359F721533C7F00C69120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		049359F921533C7F00C69120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NH253YJV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049359FA21533C7F00C69120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NH253YJV6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049359EC21533C7F00C69120 /* Build configuration list for PBXProject "CarProduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049359F621533C7F00C69120 /* Debug */,
+				049359F721533C7F00C69120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049359F821533C7F00C69120 /* Build configuration list for PBXNativeTarget "CarProduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049359F921533C7F00C69120 /* Debug */,
+				049359FA21533C7F00C69120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049359E921533C7F00C69120 /* Project object */;
+}
