@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O0X-HN-lNp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="85I-Tn-rZd">
+            <objects>
+                <viewController id="O0X-HN-lNp" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tjm-bb-Vfw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择播放器：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3D3-1a-KIV">
+                                <rect key="frame" x="126" y="104" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DM-Fh-cDr">
+                                <rect key="frame" x="27" y="194" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="N1E-Rm-0ti"/>
+                                </constraints>
+                                <state key="normal" title="AVPlayer"/>
+                                <connections>
+                                    <action selector="onSelectAVPlayer:" destination="O0X-HN-lNp" eventType="touchUpInside" id="jeY-Qa-C9j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhG-kl-Z1l">
+                                <rect key="frame" x="245" y="194" width="65" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ofu-zN-Ddc"/>
+                                </constraints>
+                                <state key="normal" title="MPPlayer"/>
+                                <connections>
+                                    <action selector="onSelectMPPlayer:" destination="O0X-HN-lNp" eventType="touchUpInside" id="gef-Si-o1s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRh-ku-Qkf">
+                                <rect key="frame" x="172" y="283" width="31" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="S9h-FA-xYp"/>
+                                </constraints>
+                                <state key="normal" title="播放"/>
+                                <connections>
+                                    <action selector="startPlay:" destination="O0X-HN-lNp" eventType="touchUpInside" id="gs9-cd-2lC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBx-PZ-ivM">
+                                <rect key="frame" x="172" y="350" width="31" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ftb-he-Bm6"/>
+                                </constraints>
+                                <state key="normal" title="暂停"/>
+                                <connections>
+                                    <action selector="pausePlay:" destination="O0X-HN-lNp" eventType="touchUpInside" id="7OR-Rj-6lJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUS-pV-8yr">
+                                <rect key="frame" x="172" y="414" width="31" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Awv-BC-oiz"/>
+                                </constraints>
+                                <state key="normal" title="停止"/>
+                                <connections>
+                                    <action selector="stopPlay:" destination="O0X-HN-lNp" eventType="touchUpInside" id="XKp-nh-UnW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NhG-kl-Z1l" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Tjm-bb-Vfw" secondAttribute="leading" constant="20" symbolic="YES" id="2nU-IK-S5J"/>
+                            <constraint firstItem="aBx-PZ-ivM" firstAttribute="top" secondItem="xRh-ku-Qkf" secondAttribute="bottom" constant="37" id="3mo-N5-gIf"/>
+                            <constraint firstItem="aBx-PZ-ivM" firstAttribute="centerX" secondItem="xRh-ku-Qkf" secondAttribute="centerX" id="7OV-mM-Wku"/>
+                            <constraint firstItem="NhG-kl-Z1l" firstAttribute="top" secondItem="3D3-1a-KIV" secondAttribute="bottom" constant="69" id="NEF-4G-g4R"/>
+                            <constraint firstItem="3D3-1a-KIV" firstAttribute="leading" secondItem="8DM-Fh-cDr" secondAttribute="trailing" constant="-1" id="Oim-1I-RLu"/>
+                            <constraint firstItem="3D3-1a-KIV" firstAttribute="top" secondItem="r6w-FX-Rqf" secondAttribute="top" constant="84" id="SQc-Ag-R02"/>
+                            <constraint firstItem="xRh-ku-Qkf" firstAttribute="top" secondItem="8DM-Fh-cDr" secondAttribute="bottom" constant="59" id="ShK-Gk-S6C"/>
+                            <constraint firstItem="8DM-Fh-cDr" firstAttribute="leading" secondItem="r6w-FX-Rqf" secondAttribute="leading" constant="27" id="awC-w4-xYj"/>
+                            <constraint firstItem="3D3-1a-KIV" firstAttribute="centerX" secondItem="r6w-FX-Rqf" secondAttribute="centerX" id="cXM-Vl-F8S"/>
+                            <constraint firstItem="8DM-Fh-cDr" firstAttribute="baseline" secondItem="NhG-kl-Z1l" secondAttribute="baseline" id="eH0-24-PFe"/>
+                            <constraint firstItem="xRh-ku-Qkf" firstAttribute="centerX" secondItem="3D3-1a-KIV" secondAttribute="centerX" id="fsl-G4-BWu"/>
+                            <constraint firstItem="VUS-pV-8yr" firstAttribute="centerX" secondItem="xRh-ku-Qkf" secondAttribute="centerX" id="h9a-FL-Ldn"/>
+                            <constraint firstItem="VUS-pV-8yr" firstAttribute="top" secondItem="aBx-PZ-ivM" secondAttribute="bottom" constant="34" id="iW4-ZR-E9l"/>
+                            <constraint firstItem="r6w-FX-Rqf" firstAttribute="trailing" secondItem="NhG-kl-Z1l" secondAttribute="trailing" constant="65" id="yv0-0q-lup"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="r6w-FX-Rqf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qCb-Ra-3lQ" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
