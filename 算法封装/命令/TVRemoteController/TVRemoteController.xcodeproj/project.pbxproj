@@ -72,10 +72,9 @@
 		0426653C21660EE900F6441E /* TVRemoteController */ = {
 			isa = PBXGroup;
 			children = (
+				0426655521661B0500F6441E /* Invoker */,
 				042665512166110000F6441E /* Receiver */,
 				04266550216610F400F6441E /* Command */,
-				042665522166112900F6441E /* TVRemoteController.h */,
-				042665532166112900F6441E /* TVRemoteController.m */,
 				0426653D21660EE900F6441E /* main.m */,
 			);
 			path = TVRemoteController;
@@ -101,6 +100,15 @@
 				0426654821660F2A00F6441E /* TV.m */,
 			);
 			path = Receiver;
+			sourceTree = "<group>";
+		};
+		0426655521661B0500F6441E /* Invoker */ = {
+			isa = PBXGroup;
+			children = (
+				042665522166112900F6441E /* TVRemoteController.h */,
+				042665532166112900F6441E /* TVRemoteController.m */,
+			);
+			path = Invoker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
