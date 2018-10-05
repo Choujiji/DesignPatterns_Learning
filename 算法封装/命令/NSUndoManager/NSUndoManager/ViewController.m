@@ -28,6 +28,9 @@
     
     self.index = 0;
     self.valueLabel.text = [NSString stringWithFormat:@"%ld", self.index];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didUndoChange:) name:NSUndoManagerDidUndoChangeNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didRedoChange:) name:NSUndoManagerDidRedoChangeNotification object:nil];
 }
 
 - (IBAction)setLabelValueMethod1:(id)sender {
@@ -93,5 +96,12 @@
     // 此方法可以不重写，通过NSInvocation调用undo时系统会调用默认实现
 }
 
+- (void)didUndoChange:(NSNotification *)notification {
+    NSLog(@"%@\n%@", notification.name, notification.userInfo);
+}
+
+- (void)didRedoChange:(NSNotification *)notification {
+    NSLog(@"%@\n%@", notification.name, notification.userInfo);
+}
 
 @end
