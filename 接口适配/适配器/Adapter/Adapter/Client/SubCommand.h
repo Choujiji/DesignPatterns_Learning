@@ -10,7 +10,7 @@
 #import "Command.h"
 #import "CommandColorAapter.h"
 
-/** Adapter的子类 */
+/** Client的子类 */
 @interface SubCommand : Command
 
 @property (weak, nonatomic) id<CommandColorAapter> adapter;

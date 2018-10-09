@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-/** Adapter的根类 */
+/** Client的根类 */
 @interface Command : NSObject
 
 @property (strong, nonatomic) UIColor *currentColor;
